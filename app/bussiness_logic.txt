@@ -1,0 +1,25 @@
+- Una vez que ha pasado la fecha de caducidad, la calidad se degrada dos veces más rápido.
+- La calidad de un artículo nunca es negativa.
+-"Aged Brie" en realidad aumenta en calidad a medida que envejece
+- La calidad de un artículo nunca es superior a 50 (Sulfuras (legendario) siempre tiene 80)
+
+- Los "pases entre bastidores", como el queso brie añejo, aumentan en calidad a medida que se acerca su valor SellIn;
+La calidad aumenta en 2 cuando hay 10 días o menos y en 3 cuando hay 5 días o menos pero
+La calidad cae a 0 después del concierto
+
+
+** Items con comportamiento diferente en la calidad **
+- Age brie
+    -La calidad aumenta a medida que envejece
+- Backstage passes
+    -Aumenta la calidad en 2 cuando días <= 10
+    -Aumenta en 3 cuando días <= 5
+    -Cuando pasa los días de caducidad la calidad es igual a 0
+- Sulfuras(legendario) siempre tiene 80 en calidad
+
+
+Metodos
+- Obtener el tipo del producto
+- Metodo que según el tipo del producto invoca el método correspondiente para calcular la calidad.
+- Metodos para calcular de cada tipo : "Age brie", "Backstage passes" y "Sulfuras o legendarios"
+- Verificar si calidad a poner es válida
