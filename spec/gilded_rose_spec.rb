@@ -16,6 +16,5 @@ RSpec.describe GildedRose do
       @item.quality = 5;
       expect(@gilded_rose.update_quality_by_type(@item)).to eq(7)
     end
-    
   end
 end
